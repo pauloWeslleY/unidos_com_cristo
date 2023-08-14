@@ -14,9 +14,18 @@ export const App = () => (
       backgroundImage={'banner.jpeg'}
       backgroundSize={'cover'}
       backgroundPosition={'center center'}
+      textAlign={'center'}
     >
       <InfoIcon boxSize={'5rem'} color={'cyan.300'} />
-      <Heading as={'h2'} size={'xl'} fontFamily={'Poppins'} fontWeight={'medium'} mt={6} mb={2}>
+      <Heading
+        as={'h2'}
+        size={['md', 'xl']}
+        fontFamily={'Poppins'}
+        fontWeight={'medium'}
+        color={'gray.100'}
+        mt={6}
+        mb={2}
+      >
         Em breve um novo site pra uma excelente experiência
       </Heading>
     </MotionFlex>
